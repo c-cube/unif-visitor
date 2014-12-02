@@ -1,0 +1,4 @@
+
+true: bin_annot
+<src/**/*.*>: package(ppx_deriving.std)
+<**/*.ml>: warn_A, warn(-4)
